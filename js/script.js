@@ -1,5 +1,9 @@
 $(document).ready(function() {
-    $("#button").click(function() {
-        $("img").hide();
+    $("#text").click(function() {
+        $("p").hide();
     });
+
+    $("#images").click(function(){
+        $("img").hide();
+    })
 });

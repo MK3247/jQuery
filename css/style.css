@@ -2,10 +2,15 @@ body {
     width: 80%;
     margin: auto;
     padding: 10px;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 #container {
-    background-color: white;
+    background-color: burlywood;
     padding: 20px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
 }
